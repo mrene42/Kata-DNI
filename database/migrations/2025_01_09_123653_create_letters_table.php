@@ -16,8 +16,7 @@ return new class extends Migration
     {
         Schema::create('letters', function (Blueprint $table) {
             $table->id();
-            $table->string('letter',1);
-            $table->integer('number');
+            $table->text('letter');
             $table->timestamps();
         });
     }

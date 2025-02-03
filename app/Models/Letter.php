@@ -8,6 +8,5 @@ class Letter extends Model
 {
     protected $fillable = [
         'letter',
-        'number',
     ];
 }
